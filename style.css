@@ -61,7 +61,7 @@ body::-webkit-scrollbar {
   font-weight: 400;
   position: absolute;
   left: 8.5vw;
-  bottom: 0.55vw;
+  bottom: 0.65vw;
   letter-spacing: 1px;
 }
 #main #nav h2 {
@@ -734,7 +734,7 @@ body::-webkit-scrollbar {
   font-weight: 500;
   position: absolute;
   left: 8.9vw;
-  top: 11vh;
+  top: 10vh;
   letter-spacing: 1px;
 }
 #main #fotter #fot-bottom h3 {
@@ -781,11 +781,6 @@ body::-webkit-scrollbar {
   line-height: 2vh;
 }
 @media (max-width: 600px) {
-  #main {
-    /* --- Center Section: Stack columns vertically --- */
-    /* --- Bottom Section: Stack columns vertically --- */
-    /* Stack the other columns in the bottom section */
-  }
   #main #nav {
     height: 10vh;
     width: 100%;
@@ -1124,6 +1119,9 @@ body::-webkit-scrollbar {
     height: auto;
     /* Allow footer to grow */
   }
+  #main {
+    /* --- Center Section: Stack columns vertically --- */
+  }
   #main #fotter #fot-center {
     flex-direction: column;
     /* Stack all items */
@@ -1162,6 +1160,9 @@ body::-webkit-scrollbar {
     padding: 0.7vh 3vw;
     font-weight: 800;
   }
+  #main {
+    /* --- Bottom Section: Stack columns vertically --- */
+  }
   #main #fotter #fot-bottom {
     display: block;
     /* Remove flexbox for simple stacking */
@@ -1190,6 +1191,9 @@ body::-webkit-scrollbar {
     font-size: 1.3rem;
     top: 17px;
     right: 13vh;
+  }
+  #main {
+    /* Stack the other columns in the bottom section */
   }
   #main #fotter #fot-bottom > h3,
   #main #fotter #fot-bottom #bottom-end {
