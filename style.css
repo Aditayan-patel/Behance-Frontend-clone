@@ -61,7 +61,7 @@ body::-webkit-scrollbar {
   font-weight: 400;
   position: absolute;
   left: 8.5vw;
-  bottom: 0.65vw;
+  bottom: 0.55vw;
   letter-spacing: 1px;
 }
 #main #nav h2 {
@@ -734,7 +734,7 @@ body::-webkit-scrollbar {
   font-weight: 500;
   position: absolute;
   left: 8.9vw;
-  top: 10vh;
+  top: 11vh;
   letter-spacing: 1px;
 }
 #main #fotter #fot-bottom h3 {
